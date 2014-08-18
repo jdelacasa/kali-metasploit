@@ -1,7 +1,7 @@
 # Docker container with metasploit.
 #
 # Use Kali Linux base image (1.0.9)
-FROM jdelacasa/kali
+FROM jdelacasa/kali:1.0.9
 MAINTAINER Tom Eklöf "tom@linux-konsult.com" -- "jdelacasa@nacicansao.com"
 
 ENV DEBIAN_FRONTEND noninteractive
